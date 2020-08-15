@@ -25,15 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+ForEach simply iterates through the values of an array why map actualy creates an array with the paramaters you set.
 2. Explain the difference between a callback and a higher order function.
+A callback is a function that is nested into a higher order function that calls back on a previously created function.
 
 3. What is closure?
-
+Closure is a variable in its place in the lex enviornment.
 4. Describe the four rules of the 'this' keyword.
+Window/Global Object Binding:
+For the global scope, the property of this will be the window/console Object
+Implicit Binding:
+When the preceding dot calls the function, the object before the dot is this.
+New binding:
+When we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+Explicit binding:
+Whenever we use JavaScript’s call or apply method, this is explicitly defined.
 
 5. Why do we need super() in an extended class?
-
+Super lets a parent’s constructor be associated with the child’s attributes
 ### Task 1 - Project Set up
 
 Follow these steps to set up and work on your project:
